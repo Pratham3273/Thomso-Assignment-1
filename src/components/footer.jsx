@@ -6,9 +6,9 @@ function Footer(){
         <div className="container-fluid">
           <img src="images/logo.png" alt="logo" />
           <p>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter font"></i>
+          <i class="fa-brands fa-facebook font"></i>
+          <i class="fa-brands fa-instagram font"></i>
           </p>
           <p class="d-flex" role="search">Copywright 2020 Bella Onojie.com</p>
         </div>
@@ -17,3 +17,5 @@ function Footer(){
 }
 
 export default Footer;
+
+
