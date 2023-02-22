@@ -4,7 +4,7 @@ function Footer(){
     return(
         <footer className="navbar bg-body-tertiary">
         <div className="container-fluid">
-          <img src="images/logo.png" alt="logo" />
+          <img src="images/logo.png" alt="logo" className="foot-img" />
           <p>
           <i class="fa-brands fa-twitter font"></i>
           <i class="fa-brands fa-facebook font"></i>
