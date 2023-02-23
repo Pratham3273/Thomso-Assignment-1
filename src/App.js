@@ -12,8 +12,8 @@ function App() {
       <Navbar />
       <Section1 />
       <Section2 />
-      <Section4 />
       <Section3 />
+      <Section4 />
       <Footer />
     </div>
   );

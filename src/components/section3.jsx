@@ -1,16 +1,19 @@
 import React from "react";
+import Part2 from "./Part2";
+import Part1 from "./Part1";
+import Part3 from "./Part3";
 
-function Section3(){
-    return(
-        <div className="sec3">
-          
-            <h2>Download the app now.</h2>
-            <p>Available on your favorite store. Start your premium experience now</p>
-
-            <button className="btn btn-danger" >Play Store</button>
-            <button className="btn btn-outline-light" >App Store</button>
-        </div>
-    )
+function Section3() {
+  return (
+    <div className="Section3">
+      <hr className="d-none d-xl-block hr1"></hr>
+      <h1 className="heading">How the app works</h1>
+      <hr className="d-xl-none hr2"></hr>
+      <Part1 />
+      <Part2 />
+      <Part3 />
+    </div>
+  );
 }
 
-export default Section3;
+export default Section3;
